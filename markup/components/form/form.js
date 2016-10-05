@@ -2,7 +2,7 @@ import $ from 'jquery';
 
 export let form = (function () {
 
-    console.log('I am form!');
+    console.log('I am form and this is the master log!');
 
     function init(gameID, casinoID, userID) {
         return new Promise((resolve, reject) => {
