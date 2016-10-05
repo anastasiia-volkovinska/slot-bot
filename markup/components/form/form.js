@@ -2,6 +2,8 @@ import $ from 'jquery';
 
 export let form = (function () {
 
+    console.log('I am form!');
+
     function init(gameID, casinoID, userID) {
         return new Promise((resolve, reject) => {
             $.ajax({
