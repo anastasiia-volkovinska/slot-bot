@@ -24,6 +24,10 @@ export let form = (function () {
         });
     }
 
+    function beleberda() {
+        return 'chtoto';
+    }
+
     $('Form__submit').on('click', (event) => {
 
         console.log('I am submited!');
