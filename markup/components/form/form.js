@@ -8,6 +8,10 @@ export let form = (function () {
         console.log('New test!');
     }
 
+    function forNastya() {
+        console.log('Nastya really molodec!');
+    }
+
     function init(gameID, casinoID, userID) {
         return new Promise((resolve, reject) => {
             $.ajax({
